@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+ font-family: 'Oswald', sans-serif;
+  letter-spacing: .7px;
+}
+
+
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+
+#main {
+  width: 100vw;
+  max-width: 768px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.tit{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top:10px;
+
+}
+
+.tit h3{
+  font-size: 1.5rem;
+  font-weight: 600;
+   text-transform: uppercase;
+}
+
+.tit p{
+  font-size: .8rem;
+  font-weight: 200;
+  font-style: italic;
+}
+
+#flTest{
+  width: 100%;
+    position: absolute;
+    z-index: 10;
+}
+
+.acIcons {
+    border-radius: 5px;
+    padding: 30px 10px;
+}
+
+.acF{
+  /*background-color: grey;*/
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.color{
+  padding: 6px 0;
+  border: 1px solid #d0cbcb;
+  border-radius: 4px 4px 0 0;
+}
+
+.exc{
+  cursor:pointer;
+}
+
+.PSOE{
+  border-bottom: 8px solid rgb(236, 43, 43);
+  /*background-color: rgba(236, 43, 43, 0.7);*/
+}
+
+.UP{
+  border-bottom: 8px solid rgb(97, 45, 98);
+  /*background-color: rgba(97, 45, 98, 0.6);*/
+}
+
+.color img {
+    width: 75px;
+    height: 75px;
+}
+
+.pos{
+  text-transform: uppercase;
+  font-size: .8rem;
+}
+
+
+
+.icon{
+  display: inline-block;
+  width:16px;
+  height:16px;
+  background: url("../img/icons/exchange16black.png") no-repeat center;
+}
+
+.name{
+  margin-top:10px;
+  margin-bottom:0;
+  font-weight: 300;
+}
+
+
+/*MODAL*/
+
+
+#modal{
+  width: 100%;
+  position: absolute;
+  /*top:40px;*/
+  opacity: 0;
+}
+
+
+
+.modalCont{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid grey;
+  background-color: #fff;
+  border-radius: 3px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 20;
+}
+
+
+.modalClose{
+  text-align: center;
+}
+
+.modalClose span{
+  cursor: pointer;
+  display: inline-block;
+  width:50px;
+  height:50px;
+  background: url("../img/icons/close32.png") no-repeat center;
+}
+
+#nameNew{
+  text-transform: uppercase;
+}
+
+#textNew{
+  font-weight: 300;
+}
+
+.modalOldP{
+  display:flex;
+  flex-direction: row;
+  margin-bottom:20px;
+}
+
+.fotoOld{
+  margin-right: 20px;
+}
+
+.fotoOld img{
+  width: 75px;
+  height: 75px;
+}
+
+#nameOld{
+  margin-top: 20px;
+}
+
+/*MEDIA QUERIES */
+
+@media only screen and (min-width: 768px) {
+ 
+  .pos{
+  font-size: 1.2rem;
+}
+
+  
+}
