@@ -4,84 +4,84 @@
 let data =[
   { id: "vic1",
     nameNew: "Nadia Calviño", 
-    textNew: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sapien augue, tincidunt a quam ut, volutpat consectetur lorem. Pellentesque sagittis tempor odio, sit amet porta libero laoreet ac pertinus. ",
+    textNew: "La vicepresidenta tercera y ministra de Asuntos Económicos y Transformación Digital asciende en el escalafón, ya que pasará a ocupar a partir de ahora la Vicepresidencia primera del Gobierno",
     imgOld: "./img/round/calvo_round.png",
     nameOld: "Carmen Calvo"
     },
 
   { id: "vic2",
     nameNew: "Yolanda Díaz", 
-    textNew: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sapien augue, tincidunt a quam ut, volutpat consectetur lorem. Pellentesque sagittis tempor odio, sit amet porta libero laoreet ac pertinus. ",
+    textNew: "La vicepresidenta de Trabajo y Economía Social, Yolanda Díaz, pasará a ser la vicepresidenta segunda. Será la única ministra de Unidas Podemos que se verá afectada por la remodelación",
     imgOld: "./img/round/calvino_round.png",
     nameOld: "Nadia Calviño"
     },
 
     { id: "vic3",
     nameNew: "Teresa Ribera", 
-    textNew: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sapien augue, tincidunt a quam ut, volutpat consectetur lorem. Pellentesque sagittis tempor odio, sit amet porta libero laoreet ac pertinus. ",
+    textNew: "La ministra seguirá al frente de la cartera de Transición Ecológica y Reto Demográfico y, además, sube un escalafón en el Gobierno al pasar a ocupar la Vicepresidencia tercera",
     imgOld: "./img/round/yolanda_round.png",
     nameOld: "Yolanda Díaz"
     },
 
     { id: "pres",
     nameNew: "Félix Bolaños", 
-    textNew: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sapien augue, tincidunt a quam ut, volutpat consectetur lorem. Pellentesque sagittis tempor odio, sit amet porta libero laoreet ac pertinus. ",
+    textNew: "El hasta ahora secretario de Estado de Presidencia sube de rango ya que pasará a ocupar el puesto de ministro de la Presidencia, Relaciones con las Cortes y Memoria Democrática",
     imgOld: "./img/round/calvo_round.png",
     nameOld: "Carmen Calvo"
     },
 
     { id: "port",
     nameNew: "Isabel Rodríguez", 
-    textNew: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sapien augue, tincidunt a quam ut, volutpat consectetur lorem. Pellentesque sagittis tempor odio, sit amet porta libero laoreet ac pertinus pertinus. ",
+    textNew: "La hasta ahora diputada y alcaldesa de Puertollano (Ciudad Real) será la nueva portavoz del Gobierno de Pedro Sánchez. Además, estará al frente del Ministerio de Política Territorial",
     imgOld: "./img/round/mjmontero_round.png",
     nameOld: "María Jesús Montero"
     },
 
     { id: "ext",
     nameNew: "J. M. Albares", 
-    textNew: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sapien augue, tincidunt a quam ut, volutpat consectetur lorem. Pellentesque sagittis tempor odio, sit amet porta libero laoreet ac pertinus. ",
+    textNew: "El actual embajador de España en la República Francesa y ex secretario general de asuntos internacionales será el encargado de dirigir a partir de ahora el Ministerio de Asuntos Exteriores",
     imgOld: "./img/round/laya_round.png",
     nameOld: "Arancha González Laya"
     },
 
     { id: "just",
     nameNew: "Pilar Llop", 
-    textNew: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sapien augue, tincidunt a quam ut, volutpat consectetur lorem. Pellentesque sagittis tempor odio, sit amet porta libero laoreet ac pertinus. ",
+    textNew: "La hasta ahora presidenta del Senado será la nueva ministra de Justicia. Para ocupar su cargo en la Cámara Alta, se apunta al portavoz del grupo socialista, Ander Gil",
     imgOld: "./img/round/campo_round.png",
     nameOld: "Juan Carlos Campo"
     },
 
     { id: "terr",
     nameNew: "Isabel Rodríguez", 
-    textNew: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sapien augue, tincidunt a quam ut, volutpat consectetur lorem. Pellentesque sagittis tempor odio, sit amet porta libero laoreet ac pertinus. ",
+    textNew: "La hasta ahora diputada y alcaldesa de Puertollano (Ciudad Real) será la nueva portavoz del Gobierno de Pedro Sánchez. Además, estará al frente del Ministerio de Política Territorial ",
     imgOld: "./img/round/iceta_round.png",
     nameOld: "Miquel Iceta"
     },
 
     { id: "trans",
     nameNew: "Raquel Sánchez", 
-    textNew: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sapien augue, tincidunt a quam ut, volutpat consectetur lorem. Pellentesque sagittis tempor odio, sit amet porta libero laoreet ac pertinus. ",
+    textNew: "La alcaldesa de Gavà, en el Baix Llobregat, se incorpora al Gobierno. La edil del PSC será la máxima responsable del Ministerio de Transportes, Movilidad y Agenda Urbana",
     imgOld: "./img/round/abalos_round.png",
     nameOld: "José Luis Ábalos"
     },
 
     { id: "edu",
     nameNew: "Pilar Alegría", 
-    textNew: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sapien augue, tincidunt a quam ut, volutpat consectetur lorem. Pellentesque sagittis tempor odio, sit amet porta libero laoreet ac pertinus. ",
+    textNew: " La hasta ahora delegada del Ejecutivo aragonés y exconsejera de Innovación, Investigación y Universidad (2015 - 2019) del Gobierno de Aragón se encargará de liderar el Ministerio de Educación",
     imgOld: "./img/round/celaa_round.png",
     nameOld: "Isabel Celaá"
     },
 
     { id: "cien",
     nameNew: "Diana Morant", 
-    textNew: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sapien augue, tincidunt a quam ut, volutpat consectetur lorem. Pellentesque sagittis tempor odio, sit amet porta libero laoreet ac pertinus. ",
+    textNew: "La alcaldesa del municipio valenciano de Gandía, muy próxima al presidente de la Comunidad Valenciana, Ximo Puig, será la encargada de dirigir el Ministerio de Ciencia e Innovación ",
     imgOld: "./img/round/duque_round.png",
     nameOld: "Pedro Duque"
     },
 
     { id: "cult",
     nameNew: " Miquel Iceta", 
-    textNew: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sapien augue, tincidunt a quam ut, volutpat consectetur lorem. Pellentesque sagittis tempor odio, sit amet porta libero laoreet ac pertinus. ",
+    textNew: "El primer secretario del PSC abandona el Ministerio de Política Territorial y Función Pública, cargo que ostenta desde el mes de enero. El catalán para a ser el nuevo ministro de Cultura y Deportes",
     imgOld: "./img/round/uribes_round.png",
     nameOld: "J. M. Rodríguez Uribes"
     },
@@ -90,7 +90,7 @@ let data =[
 
     { id: "gabin",
     nameNew: "Óscar López", 
-    textNew: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sapien augue, tincidunt a quam ut, volutpat consectetur lorem. Pellentesque sagittis tempor odio, sit amet porta libero laoreet ac pertinus. ",
+    textNew: "El presidente y consejero delegado de Paradores, también ex secretario de Organización del PSOE, regresa a la primera línea política al ser escogido como nuevo Jefe de Gabinete de presidente",
     imgOld: "./img/round/redondo_round.png",
     nameOld: "Iván Redondo"
     }
