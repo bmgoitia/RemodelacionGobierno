@@ -143,10 +143,13 @@ function fadeIn(loc){
 /*  $("#layer").css("display", "block");
 */  
   $('#modal').css('top', loc);
+
+  $('#flTest').css("opacity", ".4");
+  $('#modal').css("opacity", "1");
     
-  var tl = gsap.timeline();
+/*  var tl = gsap.timeline();
   tl.to("#flTest", {opacity: .4, duration: .2});
-  tl.to("#modal", {opacity: 1, duration: .2, delay: -1});
+  tl.to("#modal", {opacity: 1, duration: .2, delay: -1});*/
 
 }
 
@@ -154,9 +157,13 @@ function closeModal(){
 /*  $("#layer").css("display", "block");
 */  
   $('#modal').css('top', "0");
-  var tl = gsap.timeline();
+
+  $('#modal').css("opacity", "0");
+  $('#flTest').css("opacity", "1");
+  
+ /* var tl = gsap.timeline();
   tl.to("#modal", {opacity: 0, duration: .2});
-  tl.to("#flTest", {opacity: 1, duration: .2, delay: -1});
+  tl.to("#flTest", {opacity: 1, duration: .2, delay: -1});*/
 
 }
 
